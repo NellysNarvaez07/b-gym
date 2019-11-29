@@ -1,4 +1,4 @@
 # gym
 
-#Nellys Narvaez Martinez
-#Ana Burgos Acosta
+#LINA MADRID DIAZ
+#ANA BURGOS ACOSTA
