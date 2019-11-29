@@ -1,0 +1,211 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PROYECTO GYM ",
+		"_postman_id": "7314e096-3df8-aa6e-ce11-2d5e4066f8b4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"apodo\": \"DVDZ\",\n    \"contrasena\": \"321926\"\n}"
+				},
+				"description": "guarda un usuario a la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"apodo\": \"DVDZ\",\n    \"contrasena\": \"321926\"\n}"
+				},
+				"description": "mostrar usuarios de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/calificaciones",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"apodo\": \"DVDZ\",\n    \"contrasena\": \"321926\"\n}"
+				},
+				"description": "mostrar calificaciones de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/instructore",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"apodo\": \"DVDZ\",\n    \"contrasena\": \"321926\"\n}"
+				},
+				"description": "mostrar intructores de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/cliente",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"apodo\": \"DVDZ\",\n    \"contrasena\": \"321926\"\n}"
+				},
+				"description": "mostrar clientes de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/instructore",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"nombre1\": \"angel\",\n       \"nombre2\": \"luze\",\n       \"apellido1\":\"martines\",\n       \"apellido2\": \"lopez\",\n       \"telefono\": \"3234234655\",\n       \"cedula\": \"34567685489\",\n       \"correo\": \"asdgasdfg@gmail.com\",\n       \"sexo\": \"masculino\",\n}"
+				},
+				"description": "agregar  clientes de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/cliente",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"nombre1\": \"angel\",\n       \"nombre2\": \"luze\",\n       \"apellido1\":\"martines\",\n       \"apellido2\": \"lopez\",\n       \"telefono\": \"3234234655\",\n       \"cedula\": \"34567685489\",\n       \"correo\": \"asdgasdfg@gmail.com\",\n       \n}"
+				},
+				"description": "instructor clientes de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"apodo\":\"hujik\",\n     \"contraseña\":\"32554266\",\n     \n}"
+				},
+				"description": "usuario clientes de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"apodo\":\"hujik\",\n     \"contraseña\":\"32554266\",\n     \n}"
+				},
+				"description": "usuario clientes de la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/usuario",
+			"request": {
+				"url": "https://3000-ba3d0df3-58b3-433b-a0c4-2105ec5bfa1c.ws-us0.gitpod.io/calificacione",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"nombre1\": \"mara\",\n       \"nombre2\": \"luc\",\n       \"apellido1\": \"barrera\",\n       \"apellido2\": \"cande\",\n       \"correo\": \"luhfth34@gmail.com\",\n       \"cedula\": \"234225536\",\n       \"metodo_enseñanza\": \"entrenamiento intensivo\",\n       \"recomendaciones\": \"tomar mucha agua\",\n       \"rutina\": \"espalda y piernas\"\n}"
+				},
+				"description": "agregar calificaciones de la base de datos"
+			},
+			"response": []
+		}
+	]
+}
